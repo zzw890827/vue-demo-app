@@ -14,12 +14,12 @@ export default new Router({
     {
       path: '/shopping-site-app',
       name: 'e-shopping',
-      component: () => import('./views/ShoppingSite'),
+      component: () => import('./views/ShoppingSite/Index'),
     },
     {
       path: '/todo-list-app',
       name: 'todo list',
       component: () => import('./views/TodoList'),
-    }
+    },
   ]
 });

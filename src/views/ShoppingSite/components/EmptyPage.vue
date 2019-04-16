@@ -1,17 +1,13 @@
 <template>
-  <div class="shopping-site">
-    <nav-bar/>
+  <div class="empty">
+      <h2>Your cart is empty.</h2>
+      <h3>Why not add some expensive products to it?</h3>
   </div>
 </template>
 
 <script>
-  import NavBar from './components/NavBar.vue';
-
   export default {
-    name: "index",
-    components: {
-      NavBar
-    }
+    name: "EmptyPage"
   }
 </script>
 
@@ -24,10 +20,5 @@
 
   .empty h2, h3 {
     align-self: center;
-  }
-
-  .shopping-site {
-    max-width: 800px;
-    margin: 0 auto;
   }
 </style>
